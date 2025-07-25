@@ -1,4 +1,4 @@
-# ai-voice-to-text-app-
+# ai-voice-to-text-app
 A locally hosted AI voice-to-text to text app using Llama 2-7. 
 
  Requirements
