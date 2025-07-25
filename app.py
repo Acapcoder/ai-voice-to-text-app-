@@ -21,7 +21,8 @@ os.makedirs('data', exist_ok=True)
 
 def load_model():
     global llama_model
-    model_path = "D:\project\model"
+    model_path = "the model path goes here like d:\model\llama"
+
     print(f"Loading model from {model_path}...")
     llama_model = AutoModelForCausalLM.from_pretrained(model_path, model_type="llama")
     print("Model loaded successfully.")
